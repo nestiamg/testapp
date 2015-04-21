@@ -60,7 +60,7 @@
 		
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="splash.png" width="200" height="132" />
-    <gap:splash src="splash.png" gap:platform="android" width="200" height="132" />
+    <gap:splash src="splash.9.png" gap:platform="android"/>
     <gap:splash src="splash.png" gap:platform="ios" width="200" height="132" />
     <gap:splash src="splash.png" gap:platform="winphone" width="200" height="132"  />
 </widget>
