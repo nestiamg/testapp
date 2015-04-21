@@ -24,10 +24,8 @@
 	
 	<preference name="Orientation" value="portrait" />
 	<preference name="Fullscreen" value="true" />
-	
-	<preference name="FadeSplashScreen" value="true" />
-	
-	
+	<preference name="BackgroundColor" value="0x055D9B"/>
+	<preference name="errorUrl" value="file:///android_asset/www/error.html" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
@@ -58,13 +56,11 @@
     <icon src="res/icon/windows-phone/icon-48.png" gap:platform="winphone" />
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"
         gap:role="background" />
-
 		
-	<preference name="BackgroundColor" value="0x055D9B"/>
 		
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="splash.png"/>
-    <gap:splash src="splash.png" gap:platform="android" />
-    <gap:splash src="splash.png" gap:platform="ios"/>
-    <gap:splash src="splash.png" gap:platform="winphone"/>
+    <gap:splash src="splash.png" width="200" height="132" />
+    <gap:splash src="splash.png" gap:platform="android" width="200" height="132" />
+    <gap:splash src="splash.png" gap:platform="ios" width="200" height="132" />
+    <gap:splash src="splash.png" gap:platform="winphone" width="200" height="132"  />
 </widget>
