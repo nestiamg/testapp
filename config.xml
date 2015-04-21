@@ -21,7 +21,8 @@
 
     <gap:plugin name="org.apache.cordova.core.splashscreen" />
 
-	
+	<preference name="SplashScreenDelay" value="5000" />
+	<preference name="FullScreen" value="true" />
 	<preference name="Orientation" value="portrait" />
 	<preference name="Fullscreen" value="true" />
 	<preference name="BackgroundColor" value="0x055D9B"/>
@@ -59,8 +60,15 @@
 		
 		
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="splash.9.png" width="200" height="200" />
-    <gap:splash src="splash.9.png" gap:platform="android"/>
+    
     <gap:splash src="splash.9.png" gap:platform="ios" width="200" height="200" />
     <gap:splash src="splash.9.png" gap:platform="winphone" width="200" height="200"  />
+	
+	<gap:splash src="splash.9.png" />
+	
+	<gap:splash src="res/screen/android/splash-200x320.9.png"       gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="res/screen/android/splash-320x480.9.png"       gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="res/screen/android/splash-480x800.9.png"       gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="res/screen/android/splash-720x1280.9.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+	
 </widget>
