@@ -26,7 +26,6 @@
 	<preference name="Fullscreen" value="true" />
 	
 	<preference name="FadeSplashScreen" value="true" />
-	<preference name="SplashScreen" value="screen" />
 	
 	
 
